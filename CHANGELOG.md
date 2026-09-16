@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.31.0](https://github.com/ArcReel/ArcReel/compare/v0.30.0...v0.31.0) (2026-09-16)
+
+
+### ✨ 新功能
+
+* **migrations:** 遗留风格值一次性归一为项目 schema 迁移 ([6e851c7](https://github.com/ArcReel/ArcReel/commit/6e851c74ec04fbbeac0c912d7ee9f75e15ca3029)), closes [#2462](https://github.com/ArcReel/ArcReel/issues/2462)
+* **prompts:** 统一资产图提示词模版与变体片段 ([6d0201f](https://github.com/ArcReel/ArcReel/commit/6d0201f9767af7a4f721777cbb6b4b3a0b9eca33))
+
+
+### 🐛 Bug 修复
+
+* **text_backends:** 降级链识别 Instructor reask 崩溃并剥离 think 思考块 ([#2446](https://github.com/ArcReel/ArcReel/issues/2446)) ([93f1464](https://github.com/ArcReel/ArcReel/commit/93f14642506f13a6ee78c4b7c6d54ce3dfa8ad7c))
+
+
+### 📚 文档
+
+* **prompts:** 对齐负向提示词与片段引用的术语口径 ([f2c3e90](https://github.com/ArcReel/ArcReel/commit/f2c3e90dddbc3f00bda25612d3bb831c254c6308)), closes [#2461](https://github.com/ArcReel/ArcReel/issues/2461) [#2463](https://github.com/ArcReel/ArcReel/issues/2463)
+* **prompts:** 明确整段提示词模版与命名变体边界 ([88fd58b](https://github.com/ArcReel/ArcReel/commit/88fd58b5e7a25350c7bf61920456e65d331900aa)), closes [#2461](https://github.com/ArcReel/ArcReel/issues/2461)
+* **readme:** add Fluxion AI to sponsors ([#2458](https://github.com/ArcReel/ArcReel/issues/2458)) ([79f6970](https://github.com/ArcReel/ArcReel/commit/79f697026ccf981c44f3650c29fbf8faa1e4463d))
+
 ## [0.30.0](https://github.com/ArcReel/ArcReel/compare/v0.29.0...v0.30.0) (2026-09-10)
 
 ### 🌟 版本亮点
